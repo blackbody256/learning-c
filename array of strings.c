@@ -7,7 +7,7 @@ int main(){
     thats why i included string.header so that i use a function string copy (strcpy)*/
     strcpy(cars[0], "tesla");  
     for (int i =0; i< (sizeof(cars)/sizeof(cars[0])); i++){
-        printf("%s", cars[i]);
+        printf("%s\n", cars[i]);
     }
 
 }
