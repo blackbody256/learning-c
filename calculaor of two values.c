@@ -3,7 +3,7 @@ int main(){
 char operator;
 double First_Num;
 double Second_Num;
-printf("Enter the value of the equation:\n");
+printf("Enter the equation:\n");
 printf("Note it has to be in form of \"first value operator second value.\"\n");
 printf("operators allowed are \"-+*/\"\n");
 scanf("%lf%c%lf", &First_Num, &operator, &Second_Num);

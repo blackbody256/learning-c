@@ -1,0 +1,29 @@
+#include<stdio.h>
+void displayStatistics(int deposits[], int n) {
+    int sum = 0;
+    int max = deposits[0];
+    int min = deposits[0];
+
+    for (int i = 0; i < n; i++) {
+        sum += deposits[i];
+
+        if (deposits[i] > max) {
+            max = deposits[i];
+        }
+
+        if (deposits[i] < min) {
+            min = deposits[i];
+        }
+    }
+    printf("\nStatistics:\n");
+    printf("Maximum deposit: %d\n", max);
+    printf("Minimum deposit: %d\n", min);
+    printf("Mean deposit: %.2f\n", mean);}
+int main() {
+    int serial[]{ 001, 002, 003, 004, 005}
+    char names[][20] = {"Edrine", "Ivan", "Leticia", "Kings", "Joshua", "Mosh"};
+    int deposits[] = {5500, 17000, 35000, 42000, 26500, 29000};
+    int n = sizeof(deposits) / sizeof(deposits[0]);
+
+    }
+

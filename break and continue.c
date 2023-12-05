@@ -4,10 +4,10 @@ int main(){
     //break exits a loop/switch
     for(int i =1;i<=20;i++){
         if (i==13){
-            continue;//this just skips number 13
-            //break;//while this stops at number 13
+            //continue;//this just skips number 13
+           break;//while this stops at number 13
         }
-        printf("%d\n", i);
     }
+    printf("ambrose");
     return 0;
 }
