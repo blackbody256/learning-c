@@ -8,6 +8,7 @@ int main(){
     prices[3]=25.0;
     prices[4]=20.0;//note:that the array indexes start at zero
     printf("%.2lf\n", prices[0]);
+    //this is just a comment
 
 
 }
